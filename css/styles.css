@@ -1,0 +1,61 @@
+/* roboto 500  400  700
+   releway 800
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.link{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    font-family: 'Releway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        color: #4D5AE5;
+        text-transform: uppercase;
+}
+.studio{
+     color: #2E2F42;
+}
+.link-navigation{
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.link-address{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.headline{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+.order-button{
+    font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+.list-name{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
