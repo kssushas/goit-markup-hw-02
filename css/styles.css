@@ -32,7 +32,7 @@ ul{
     list-style: none;
 }
 .logo{
-    font-family: 'Releway',sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -67,7 +67,7 @@ ul{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.link-address:hover,.link-address:active{
+.link-address:hover,.link-address:focus{
     color:#404bbf;
 }
 .headline{
@@ -90,10 +90,10 @@ ul{
     background: var(--link-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        cursor: pointer;
 }
-.order-button:hover, .order-button:active{
+.order-button:hover, .order-button:focus{
     background-color: #404BBF;
-    cursor: pointer;
 }
 .portfolio-button{
   color:var(--link-color);
@@ -126,9 +126,11 @@ ul{
 .title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
+        text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        color:var(--header-color);
 }
 .team-section{
     background: var(--footer-studio);
