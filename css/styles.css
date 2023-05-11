@@ -1,8 +1,25 @@
 /* roboto 500  400  700
    releway 800
 */
+:root{
+  --header-color:#2E2F42;
+  --textlink-color:#434455;
+  --link-color:#4D5AE5;
+  --background-main:#E5E5E5;
+  --footer-studio:#F4F4FD;
+  --hero-bkgrd-color:#fff;
+  --border-color:#E7E9FC;
+  --hover-color:#404BBF;
+}
 body{
     font-family: 'Roboto', sans-serif;
+    
+}
+.header{
+    border-bottom: 1px solid var(--border-color);
+}
+main{
+    background: var(--background-main);
 }
 .link{
     text-decoration: none;
@@ -15,18 +32,26 @@ ul{
         font-weight: 800;
         font-size: 18px;
         line-height: 1.16;
-        color: #4D5AE5;
+        color: var(--link-color);
         text-transform: uppercase;
 }
 .studio{
-     color: #2E2F42;
+     color: var(--header-color);
+}
+.footer-studio{
+    color: var(--footer-studio);
+}
+.main-section{
+    background-color: var(--header-color);
 }
 .link-navigation{
+        color: inherit;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 .link-address{
+        color: var(--textlink-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -35,11 +60,30 @@ ul{
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        color: var(--hero-bkgrd-color);
 }
-.order-button{
+.button-text{
+    font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+}
+.order-button{
+    color: var(--hero-bkgrd-color);
+    background: var(--link-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.portfolio-button{
+  color:var(--link-color);
+  background-color: var(--footer-studio);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+.portfolio-button:hover, .portfolio-button:active{
+    background-color: var(--hover-color);
+    color: var(--hero-bkgrd-color);
 }
 .list-name{
     font-weight: 500;
@@ -47,7 +91,13 @@ ul{
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
+.list-team{
+    background-color: var(--hero-bkgrd-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
 .text{
+    color: var(--textlink-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -59,3 +109,12 @@ ul{
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
+.team-section{
+    background: var(--footer-studio);
+}
+footer{
+    background-color: var(--header-color);
+}
+ .footer-text{
+    color:var(--footer-studio);
+ }
