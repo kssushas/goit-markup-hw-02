@@ -13,7 +13,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    
+    color:var(--textlink-color);
+    background-color: var(--hero-bkgrd-color);
 }
 .header{
     border-bottom: 1px solid var(--border-color);
@@ -27,13 +28,17 @@ main{
 ul{
     list-style: none;
 }
+.list{
+    list-style: none;
+}
 .logo{
     font-family: 'Releway',sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         color: var(--link-color);
         text-transform: uppercase;
+        letter-spacing: 0.03em;
 }
 .studio{
      color: var(--header-color);
@@ -41,19 +46,29 @@ ul{
 .footer-studio{
     color: var(--footer-studio);
 }
+.address{
+    font-style: normal;
+}
 .main-section{
     background-color: var(--header-color);
 }
 .link-navigation{
-        color: inherit;
+        font-size:16;
+        color: var(--header-color);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.link-navigation:hover,.link-navigation:focus{
+    color: #404bbf;
 }
 .link-address{
         color: var(--textlink-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.link-address:hover,.link-address:active{
+    color:#404bbf;
 }
 .headline{
     font-weight: 700;
@@ -61,6 +76,7 @@ ul{
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--hero-bkgrd-color);
+        text-align: center;
 }
 .button-text{
     font-family: inherit;
@@ -74,6 +90,10 @@ ul{
     background: var(--link-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+}
+.order-button:hover, .order-button:active{
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .portfolio-button{
   color:var(--link-color);
@@ -90,6 +110,7 @@ ul{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color:var(--header-color);
 }
 .list-team{
     background-color: var(--hero-bkgrd-color);
