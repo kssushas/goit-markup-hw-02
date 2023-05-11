@@ -79,7 +79,6 @@ ul{
         text-align: center;
 }
 .button-text{
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
         line-height: 1.5;
@@ -96,14 +95,19 @@ ul{
     background-color: #404BBF;
 }
 .portfolio-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+    line-height: 1.5;
+        letter-spacing: 0.04em;
   color:var(--link-color);
   background-color: var(--footer-studio);
   border: 1px solid var(--border-color);
   border-radius: 4px;
+cursor: pointer
 }
-.portfolio-button:hover, .portfolio-button:active{
-    background-color: var(--hover-color);
-    color: var(--hero-bkgrd-color);
+.portfolio-button:hover, .portfolio-button:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 .list-name{
     font-weight: 500;
