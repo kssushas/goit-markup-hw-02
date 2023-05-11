@@ -85,6 +85,7 @@ ul{
         letter-spacing: 0.04em;
 }
 .order-button{
+    font-family: inherit;
     color: var(--hero-bkgrd-color);
     background: var(--link-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
